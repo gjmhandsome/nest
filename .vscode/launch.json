@@ -27,6 +27,21 @@
             "type": "node",
             "cwd": "${workspaceFolder}/demo3",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "debuger nest provide",
+            "request": "launch",
+            "runtimeArgs": [
+                "run",
+                "start:dev",
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node",
+            "cwd": "${workspaceFolder}/use-provider",
+            "console": "integratedTerminal"
         }
     ]
 }
