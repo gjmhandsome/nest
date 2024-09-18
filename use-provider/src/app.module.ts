@@ -9,7 +9,6 @@ import { PersonService } from './person/person.service';
 @Module({
   imports: [PersonModule],
   controllers: [AppController],
-  // providers: [AppService],
   providers: [
   AppService, 
   {
