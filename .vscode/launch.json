@@ -42,6 +42,21 @@
             "type": "node",
             "cwd": "${workspaceFolder}/use-provider",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "debugger dynamic-module",
+            "request": "launch",
+            "runtimeArgs": [
+                "run",
+                "start:dev"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node",
+            "cwd": "${workspaceFolder}/dynamic-module",
+            "console": "integratedTerminal"
         }
     ]
 }
